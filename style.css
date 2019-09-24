@@ -1,0 +1,46 @@
+.calculator {
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+.screen {
+    color: white;
+    height: 60px;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.row-containing-buttons {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calculator-button:hover {
+    background-color: grey;
+}
+
+.calculator-button {
+    width: 24.5%;
+    height: 50px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.clear-button {
+    width: 49.5%
+}
+
+.equal-button {
+    width: 74.9%
+}
+
+.description {
+    border: 2px solid black;
+    text-align: center;
+}
