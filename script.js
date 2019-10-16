@@ -1,7 +1,7 @@
 //JavaScript code for Calculator
 
 let screenTotal = 0;
-let currentNumber = "0";
+let currentNumber = "";
 let currentOperator = null;
 
 let screen = document.querySelector('.screen');
